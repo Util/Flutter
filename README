@@ -1,0 +1,13 @@
+Flutter is a suite of demos for Perl 6, intended to be run as a continuous
+stream. The demos should have a narrative flow, be engaging to a variety of
+audiences (*.age, *.coding_skill, *.perl_background) at multiple depths, and
+build on each other (0..few forward references).
+
+Each small demo program will have its code displayed on the screen, followed
+by the output of running that code. Code, comments, and output must all fit
+together on a least-common-denominator display (80x25).
+
+See also the FAQ, which contains some info normally found in READMEs.
+
+Thanks to chromatic and rGeoffrey for encouragement and ideas, and to colomon
+for a throughout read-through and code review of the initial effort.

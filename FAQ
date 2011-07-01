@@ -1,0 +1,43 @@
+F.A.Q. = Fervently Anticipated Questions
+
+(Some documentation works better in Q/A form,
+even when no-one has actually asked the Qs.)
+
+Q: What is Flutter?
+A: Flutter is a suite of demos for Perl 6.
+
+Q: Why?
+A: Because we lacked a good answer to "What now?" when a novice downloads a
+   binary of Rakudo Star.
+   The easier we make R* to acquire, the more likely that any particular user
+   will not know how to play with their new toy. I think we can provide a
+   solid first experience with Perl 6 for *anyone* who gets their hands on
+   *any* implementation of Perl 6, even if they are non-programmers.
+
+Q: Why "flutter" as the name?
+A: From the image of a butterfly (like our mascot Camelia) fluttering about,
+   pleasant to look at, and just engaging enough to keep you watching. You can
+   sit back and passively observe, or actively chase butterflies with a
+   child's enthusiasm.
+
+Q: What is "narrative flow"? Isn't that for literature?
+A: XXX Definition to come; hard to come by.
+A: Instead of "literature", think of NF in the context of "telling a story". A
+   good demo certainly tells a story, and that story should be coherent. If
+   the story is *compelling*, then you have gone from good to great.
+
+   From http://fmwriters.com/Visionback/Issue14/wbinvisiblequestions.htm :
+    Pull a book down from your shelf and find in it a long paragraph, a nice
+    big black block. Read the first sentence and stop. Read the second
+    sentence and stop. And then the third. Can you hear the second voice,
+    between the visible text, whispering questions? One sentence introduces
+    part of a picture that baits the reader into subconsciously asking a
+    question about the idea or action. The writer, in turn, answers that
+    question in the next sentence while simultaneously expanding information
+    that prompts the reader into asking additional questions. And then the
+    process repeats itself.
+
+Q: Why is the Flutter repo in Util's personal GitHub space?
+A: Because I don't know where it should live yet. I hope that it will become
+   useful for Perl 6 implementations beyond just Rakudo, and for Rakudo
+   distributions beyond just Star.

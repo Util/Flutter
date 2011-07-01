@@ -1,0 +1,10 @@
+
+arrays, hashes, methods
+recommend p526 reference?
+other control structs - if elsif else  while for given/when readline
+       %ENV{COLUMNS} read/write-file
+Classes, OO, methods.
+Should we show "everthing is a object underneath" before or after Classes?
+    Where to put methods-on-unblessed-vars?
+Show off RATs
+
