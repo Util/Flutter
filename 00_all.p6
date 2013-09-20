@@ -1,5 +1,5 @@
 use v6;
-=begin explaination
+=begin explanation
 For our convenience (for now), all the demo programs are in this single file.
 They will be broken out into separate files by a Perl 5 utility script.
 This file is best edited with Vim sized to 80 columns X 25 lines. To size:
@@ -11,17 +11,17 @@ Code+output *must* fit in a single 80x25 screen.
 format:
  #--- title           Marks the start of a new, separate program
  # Comment-only lines for new concepts
- say some_code();          # brief explaination
- say some_other_code();    # brief explaination
+ say some_code();          # brief explanation
+ say some_other_code();    # brief explanation
 
- say $even_more + $code; # brief explaination
+ say $even_more + $code; # brief explanation
 
  =begin output
  output of some_code
  output of some_other_code
  output of addition
  =end output
-=end explaination
+=end explanation
 
 #--- say
 # Statements end with ';', and comments start with '#'
