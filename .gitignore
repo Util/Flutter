@@ -1,0 +1,7 @@
+.00_all.p6.swp
+b_0*.p6
+.DS_Store
+# Note: .gitignore does not allow end-of-line comments.
+# .00_all.p6.swp    Swap file for Vim editing the main slide file
+# b_0*.p6           Individual slides build by breakout.pl
+# .DS_Store         OS X index of directories viewed by Finder
