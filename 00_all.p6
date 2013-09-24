@@ -79,12 +79,12 @@ say 'WOOT!' x 15; # The x operator "repeats" a string
 
 say 2 + ( '9' x 3 );
 
-say 'a', ( 'B', 'c', 'd' ) xx 3  ; # The xx operator repeats a list
+say ( 'Marco!', 'Polo!' ) xx 3; # The xx operator repeats a list
 
 =begin output
 WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!WOOT!
 1001
-aBcdBcdBcd
+Marco! Polo! Marco! Polo! Marco! Polo!
 =end output
 
 
