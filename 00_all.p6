@@ -174,26 +174,29 @@ No soup for you!
 
 
 #--- Ranges1
-say  1  ..  4 ; # The .. operator creates a "range"
-say 'a' .. 'z';
-say 'A' .. 'D', 'F'; # A range in a list
+say ~ (  1  ..  4       ); # The .. operator creates a "range"
+say ~ ( 'a' .. 'g'      ); # Ranges automagically work with letters.
+say ~ ( 'A' .. 'D', 'F' ); # A range can be part of a list
 
-say  3  ..  6;
-say  3 ^..  6;
-say  3  ..^ 6;
-say  3 ^..^ 6;
+# Put ^ on either side (or both sides) of .. to exclude the endpoint.
+say ~ ( 3  ..  6 );
+say ~ ( 3 ^..  6 );
+say ~ ( 3  ..^ 6 );
+say ~ ( 3 ^..^ 6 );
+# A range is stored as only endpoints.
+# The stringify op (~) forced the ranges to expand; say() does not.
+say     3 ^..^ 6  ;
 
-say 'A' ^..^ 'Z';
-# XXX needs comments!
+
 =begin output
-1234
-abcdefghijklmnopqrstuvwxyz
-ABCDF
-3456
-456
-345
-45
-BCDEFGHIJKLMNOPQRSTUVWXY
+1 2 3 4
+a b c d e f g
+A B C D F
+3 4 5 6
+4 5 6
+3 4 5
+4 5
+3^..^6
 =end output
 
 
