@@ -3,7 +3,7 @@ use v6;
 For our convenience (for now), all the demo programs are in this single file.
 They will be broken out into separate files by a Perl 5 utility script.
 This file is best edited with Vim sized to 80 columns X 25 lines. To size:
-  perl6 -e 'say (^8).map({$_ x 10}); say (0..9).join x 8; .say for 3..25;'
+    perl6 -e '.say for (^8 Xx 10).join, (^10).join x 8, 3..25;'
 `scroll` should auto-set to 25; Ctrl-U and Ctrl-D to navigate.
 
 Code+output *must* fit in a single 80x25 screen.
