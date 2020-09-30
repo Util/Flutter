@@ -1,4 +1,4 @@
-Flutter is a suite of demos for Perl 6, intended to be run as a continuous
+Flutter is a suite of demos for Perl 6, intended to run as a continuous
 stream. The demos should have a narrative flow, be engaging to a variety of
 audiences (*.age, *.coding_skill, *.perl_background) at multiple depths, and
 build on each other (0..few forward references).
